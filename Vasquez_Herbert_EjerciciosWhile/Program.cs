@@ -179,6 +179,41 @@ switch (opcion)
         }
         break;
     case 15:
+        //ejercicio echo en clase
+        int opcio = 0;
+        Console.WriteLine("holi");
+        while (opcion != 4)
+        {
+            Console.WriteLine("Ingrese opcion");
+            opcio = int.Parse(Console.ReadLine());
+            switch (opcio)
+            {
+
+                case 1:
+                    Console.WriteLine("ingrse 1option");
+                    opcio = 1;
+
+                    break;
+                case 2:
+                    Console.WriteLine("ingrse3 option");
+                    opcio = 2;
+
+                    break;
+                case 3:
+                    Console.WriteLine("ingrse3");
+                    opcio = 3;
+
+                    break;
+                case 4:
+                    Console.WriteLine("adios xd");
+                    opcio = 4;
+
+                    break;
+                default:
+                    break;
+
+            }
+        }
         break;
     default:
         break;
