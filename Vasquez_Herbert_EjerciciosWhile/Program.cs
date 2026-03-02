@@ -170,7 +170,13 @@ switch (opcion)
         }
         break;
     case 14:
-
+        Console.Clear();
+        int de5 = 5;
+        while (de5 <= 100)
+        {
+            Console.WriteLine(de5);
+            de5 += 5; 
+        }
         break;
     case 15:
         break;
