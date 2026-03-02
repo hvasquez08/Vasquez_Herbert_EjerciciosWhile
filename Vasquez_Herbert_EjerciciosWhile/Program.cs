@@ -113,6 +113,20 @@ switch (opcion)
 
         break;
     case 10:
+        Console.Clear() ;
+        Console.Write("Ingrese un número: ");
+        int numerocontado = int.Parse(Console.ReadLine());
+
+        int cantidadDigitos = 0;
+
+        while (numerocontado > 0)
+        {
+            numerocontado /= 10; 
+            cantidadDigitos++;
+        }
+
+        Console.WriteLine($"El número tiene {cantidadDigitos} dígitos.");
+
         break;
     case 11:
         break;
