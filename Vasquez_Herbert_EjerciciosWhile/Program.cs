@@ -55,6 +55,14 @@ switch (opcion)
         Console.WriteLine($"la suma es{suma}");
         break;
     case 6:
+        Console.Clear();
+        double numero = 1;
+        while(numero != 0)
+        {
+            Console.WriteLine("ingrese un numero");
+            numero = double.Parse(Console.ReadLine());
+        }
+        Console.WriteLine("adios");
         break;
     case 7:
         break;
