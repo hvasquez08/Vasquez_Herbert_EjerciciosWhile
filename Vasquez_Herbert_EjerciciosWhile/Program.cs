@@ -101,6 +101,16 @@ switch (opcion)
 
         break;
     case 9:
+        Console.Clear() ;
+        Console.WriteLine("Ingrese un numero");
+        int numeromultiplicado = int.Parse(Console.ReadLine());
+        int multiplicacion = 1;
+        while (multiplicacion <= 10)
+        {
+            Console.WriteLine($"{numeromultiplicado}x{multiplicacion}={numeromultiplicado*multiplicacion}");
+            multiplicacion ++ ;
+        }
+
         break;
     case 10:
         break;
