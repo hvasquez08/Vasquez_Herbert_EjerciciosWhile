@@ -6,13 +6,21 @@ switch (opcion)
     case 1:
         Console.Clear();
         int i = 0;
-        while (i<=9)
+        while (i <= 9)
         {
             i++;
             Console.WriteLine(i);
         }
         break;
     case 2:
+        Console.WriteLine("ejercici");
+        Console.Clear();
+        int x = 11;
+        while (x >= 2)
+        {
+            x--;
+            Console.WriteLine(x);
+        }
         break;
     case 3:
         break;
