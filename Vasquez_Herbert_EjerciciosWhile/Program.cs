@@ -83,6 +83,22 @@ switch (opcion)
         Console.WriteLine($"Numeros negativos:{negativo}");
         break;
     case 8:
+        //factorial es multiplicar un numero por el mismo numero las veces del numero, algo haci jajajs xd 
+        Console.Clear();
+        Console.Write("Ingrese un número: ");
+        int n = int.Parse(Console.ReadLine());
+
+        int factorial = 1;
+        int ix = 1;
+
+        while (ix <= n)
+        {
+            factorial *= ix;
+            ix++;
+        }
+
+        Console.WriteLine($"El factorial de {n} es {factorial}");
+
         break;
     case 9:
         break;
