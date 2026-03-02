@@ -34,7 +34,16 @@ switch (opcion)
         }
         break;
     case 4:
-        break;
+        Console.WriteLine("ejercicio realizado");
+        Console.Clear();
+        int ww = 1;
+        while (ww <= 20)
+        {
+
+            Console.WriteLine(ww);
+            ww += 2;
+        }
+            break;
     case 5:
         break;
     case 6:
