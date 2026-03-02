@@ -161,8 +161,16 @@ switch (opcion)
 
         break;
     case 13:
+        Console.Clear();
+        int impar = 3; 
+        while (impar <= 50)
+        {
+            Console.WriteLine(impar);
+            impar += 3;
+        }
         break;
     case 14:
+
         break;
     case 15:
         break;
