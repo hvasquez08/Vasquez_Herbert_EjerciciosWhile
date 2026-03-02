@@ -216,5 +216,6 @@ switch (opcion)
         }
         break;
     default:
+        Console.WriteLine("error");
         break;
 }
