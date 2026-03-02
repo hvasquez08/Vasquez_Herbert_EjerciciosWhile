@@ -34,8 +34,8 @@ switch (opcion)
         }
         break;
     case 4:
-        Console.WriteLine("ejercicio realizado");
         Console.Clear();
+        Console.WriteLine("ejercicio realizado");
         int ww = 1;
         while (ww <= 20)
         {
@@ -45,6 +45,14 @@ switch (opcion)
         }
             break;
     case 5:
+        Console.Clear();
+        Console.WriteLine("Ejercicio realizado");
+        int suma = 0;
+        for (int ii = 1; ii<=100; ii++)
+        {
+            suma = suma+ ii ;
+        }
+        Console.WriteLine($"la suma es{suma}");
         break;
     case 6:
         break;
