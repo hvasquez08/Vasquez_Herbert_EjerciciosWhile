@@ -65,6 +65,22 @@ switch (opcion)
         Console.WriteLine("adios");
         break;
     case 7:
+        //vamos a declarar solamente 7 intentos para saber cuantos numero negativos ingresa
+        //funciona pero no se como jajjajaja
+        Console.Clear();
+        int negativo = 0;
+        int yy = 0;
+  for (int contadooor = 0; contadooor <= 2; contadooor++) { 
+            Console.WriteLine("Ingrese un numero ");
+            yy = int.Parse(Console.ReadLine());
+            while (yy < 0)
+        {
+            Console.WriteLine("Ingrese un numero ");
+            yy = int.Parse(Console.ReadLine());
+            negativo++;
+        }
+        }
+        Console.WriteLine($"Numeros negativos:{negativo}");
         break;
     case 8:
         break;
