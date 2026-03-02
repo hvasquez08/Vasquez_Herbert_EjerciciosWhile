@@ -141,10 +141,42 @@ switch (opcion)
         Console.WriteLine($"Total={numerosumados}");
         break;
     case 12:
+        Console.Clear();
+
+        string claveCorrecta = "1234"; 
+        string claveIngresada = "";
+
+        while (claveIngresada != claveCorrecta)
+        {
+            Console.Write("Ingrese la contraseña: ");
+            claveIngresada = Console.ReadLine();
+
+            if (claveIngresada != claveCorrecta)
+            {
+                Console.WriteLine("Contraseña incorrecta, intente de nuevo.");
+            }
+        }
+
+        Console.WriteLine("¡Acceso concedido!");
+
         break;
     case 13:
+        Console.Clear();
+        int impar = 3; 
+        while (impar <= 50)
+        {
+            Console.WriteLine(impar);
+            impar += 3;
+        }
         break;
     case 14:
+        Console.Clear();
+        int de5 = 5;
+        while (de5 <= 100)
+        {
+            Console.WriteLine(de5);
+            de5 += 5; 
+        }
         break;
     case 15:
         break;
