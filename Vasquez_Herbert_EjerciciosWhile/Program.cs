@@ -129,6 +129,16 @@ switch (opcion)
 
         break;
     case 11:
+        Console.Clear() ;
+       int numerosumados= 0;
+        while ( numerosumados  <= 100)
+        {
+            Console.WriteLine("Ingrese un numero ");
+            int sumarxd = int.Parse(Console.ReadLine());
+            numerosumados += sumarxd;
+
+        }
+        Console.WriteLine($"Total={numerosumados}");
         break;
     case 12:
         break;
