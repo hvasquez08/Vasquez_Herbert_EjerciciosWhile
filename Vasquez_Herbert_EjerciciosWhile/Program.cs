@@ -23,6 +23,15 @@ switch (opcion)
         }
         break;
     case 3:
+        Console.WriteLine("ejercici");
+        Console.Clear();
+        int w = 2;
+        while (w <= 20)
+        {
+            
+            Console.WriteLine(w);
+            w += 2;
+        }
         break;
     case 4:
         break;
